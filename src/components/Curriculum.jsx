@@ -31,7 +31,7 @@ function Curriculum({ onSave }) {
 
     return (
         <div className="curriculum">
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} autoComplete="off">
                 <div className="general-info">
                     <h2>General Information</h2>
                     <div>
